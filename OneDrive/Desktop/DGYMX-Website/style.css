@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(original-19ad7655f9c717cf53115ee7e6b2f094.webp);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.navbar{
+    width: calc(100% - 500px);
+    margin: 20px auto;
+    padding: 10px 14px;
+    background: blur(100px);
+    border-radius: 20px;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 12px rgba(200, 200, 200, 0.18);
+border: 1px solid rgba(200, 200, 200, 0.12);
+   overflow: visible;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 00;
+    color: rgb(255, 141, 141);
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+
+.nav-links a:hover{
+    transform: translateY(-15px) scale(1.25);
+    z-index: 999;
+    color:rgb(175, 165, 166)
+}
+
+         .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+
+    position:relative;
+    transition: transform 0.3 ease;
+    z-index: 999;
+}
+
+.logo img:hover {
+    transform: translateY(-12px) scale(1.3);
+    z-index:999;
+}
+
+      
+
+        
+        .nav-button {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+       
+        .nav-button a {
+            width: 160px;
+            height: 48px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            text-decoration: none;
+            border-radius: 32px;
+
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+       
+        .nav-button .button {
+            background: #f60031;
+            color: white;
+        }
+
+       
+        .nav-button .download-btn {
+            background: white;
+            color: black;
+        }
+
+       
+
+        .nav-button .download-btn:hover {
+            background: #dddddd;
+        }
