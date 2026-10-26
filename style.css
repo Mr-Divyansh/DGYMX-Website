@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* cursor: url("dumbell-removebg-preview.png"), auto; */
 
 }
 
@@ -10,13 +11,14 @@ body{
     background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+   
 
     
 }
 
 .navbar{
     width: calc(100% - 500px);
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 10px 14px;
     background: blur(100px);
     border-radius: 20px;
@@ -28,6 +30,23 @@ body{
     box-shadow: 0 0 12px rgba(200, 200, 200, 0.18);
 border: 1px solid rgba(200, 200, 200, 0.12);
    overflow: visible;
+   animation: floating 2s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+        
+    }
+
+    50%{
+        transform: translateY(-6px);
+    
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .logo{
@@ -193,13 +212,13 @@ font-family: 'Space Grotesk', sans-serif;
         display:flex;
         justify-content:right;
         margin-right:4rem;
-        MARGIN-TOP: -380PX;
+        margin-top: -380px;
         z-index: -999;
       }
 
       .hero-image img{
         width:100%;
-        max-width: 490px;
+        max-width: 500px;
         height:auto;
         object-fit:cover;
       }
